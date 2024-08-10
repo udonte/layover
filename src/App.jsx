@@ -8,6 +8,7 @@ import Cruises from "./pages/Cruises/Cruises";
 import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
 import FAQs from "./pages/FAQs/FAQs";
+import Blog from "./pages/Blog/Blog";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/vacations" element={<Vacations />} />
         <Route path="/cruises" element={<Cruises />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blog/:id" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/faqs" element={<FAQs />} />
       </Routes>

@@ -6,11 +6,13 @@ export default {
       colors: {
         "layover-blue": "#256FFF",
         "layover-gray-500": "#37454D",
+        "layover-black": "#040707",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         montserratAlternates: ["Montserrat Alternates", "sans-serif"],
         nunito: ["Nunito", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
         karla: ["Karla", "sans-serif"],
       },
     },
